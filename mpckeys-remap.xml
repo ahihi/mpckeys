@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<root>
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_MPCKEYS_TOGGLE</name>
+        <url>file:///Applications/MPCKeys/mpckeys-toggle.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_MPCKEYS_NEXT</name>
+        <url>file:///Applications/MPCKeys/mpckeys-next.app</url>
+    </vkopenurldef>
+
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_MPCKEYS_PREV</name>
+        <url>file:///Applications/MPCKeys/mpckeys-prev.app</url>
+    </vkopenurldef>
+    
+    <item>
+        <name>MPCKeys</name>
+        <identifier>mpckeys</identifier>
+        <autogen>
+            __ConsumerToKey__ ConsumerKeyCode::MUSIC_PLAY,
+            KeyCode::VK_OPEN_URL_MPCKEYS_TOGGLE
+        </autogen>
+        <autogen>
+            __ConsumerToKey__ ConsumerKeyCode::MUSIC_NEXT,
+            KeyCode::VK_OPEN_URL_MPCKEYS_NEXT
+        </autogen>
+        <autogen>
+            __ConsumerToKey__ ConsumerKeyCode::MUSIC_PREV,
+            KeyCode::VK_OPEN_URL_MPCKEYS_PREV
+        </autogen>
+    </item>
+</root>
