@@ -6,7 +6,7 @@ Scripts and configuration to control MPD using the media keys on Apple keyboards
 
 - Mac OS X
 - [MPD](http://mpd.wikia.com/)
-- [MPC](???)
+- [MPC](http://mpd.wikia.com/wiki/Client:Mpc)
 - [KeyRemap4MacBook](https://pqrs.org/macosx/keyremap4macbook/)
 
 ## Usage
